@@ -1,2 +1,2 @@
-# Padroes-de-Projeto
+# Padroes de Projeto
 Repositório para aula de Programação Avançada
