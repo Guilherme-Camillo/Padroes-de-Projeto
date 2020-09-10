@@ -1,2 +1,3 @@
 # Padroes de Projeto
-Repositório para aula de Programação Avançada
+Repositório para as aulas de Programação Avançada
+onde estudaremos padrões de projetos
