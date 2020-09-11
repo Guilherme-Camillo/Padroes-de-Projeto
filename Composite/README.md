@@ -33,7 +33,7 @@ Exemplo retirado da atividade feita no curso: Java Designt Patterns: Structural,
 
 Algoritmo feito para pagar as despesas de funcionários de um time de vendedores. 
 
-Foi criado uma interface que define o método 'pagarDespesas' sem definições.
+Foi criado uma interface que define o método `pagarDespesas(int valor)` sem definições.
 
 Implementamos essa interface em todas as outras classes, e definimos ela de acordo com a classe.
 
@@ -43,6 +43,6 @@ Se precisarmos adicionar outra classe como por exemplo (Atendente), podemos impl
 
 Assim lidamos os objetos ou grupos de objetos da mesma forma.
 
-**Conclusão**
+### Conclusão
 
 Esse padrão é geralmente utilizado quando precisamos de estrutura de árvores, onde os componentes de sua estrutura, precisam de um comportamento padrão bem definido. Onde os componentes podem ser objetos ou grupos de objetos.
