@@ -10,22 +10,29 @@
 +Component:
 
 -Declara a interface para os objetos da composição e para acessar e administrar os seus filhos;
+
 -Implementa comportamentos padrões comuns entre as classes;
+
 -Declara uma interface para acessare gerenciar componentes filho.
       
 +Leaf
 
 -Representa objetos filhos. Leafs não podem ter filhos. 
+
 -Defini comportamente para os objetos primitivos da estrutura.
 
 +Composite
 
 -Define comportamente para componentes que possuem filhos.
+
 -Guarda os componentes filhos.
+
 -Implementa operações para os filhos na interface Component.
     
 +Client
 
 -Manipula os objetos da composição através da interface component.
+
+
 
 
