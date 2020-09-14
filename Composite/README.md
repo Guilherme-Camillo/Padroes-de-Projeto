@@ -4,6 +4,9 @@
   Esse padrão nos permite ter uma estrutura de árvore hierarquica com objetos semelhantes sendo tratados de maneira igual, onde precisamos de funcionalidades genéricas por toda sua estruta e ainda cada nó podendo performar uma tarefa diferente. Utiliza fortemente as definições de polimorfismo.
 
   Para isso declararamos uma interface que implementa comportamentos comuns para todas as classes. Assim podemos reutilizar as funções dessa interface por toda a estrutura da árvore, isso também facilita quando precisarmos adicionar outro objeto, nos permitindo importar sua estrutura já definida. 
+### Estrutura
+
+![Tux, the Linux mascot](https://howtodoinjava.com/wp-content/uploads/2015/10/composite-design-pattern.png)
 
 ### Elementos do padrão
 
