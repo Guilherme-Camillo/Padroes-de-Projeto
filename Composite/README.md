@@ -29,6 +29,9 @@
 -Manipula os objetos da composição através da interface component.
 
 ### Exemplo
+
+[Link para o código](https://github.com/Guilherme-Camillo/Padroes-de-Projeto/tree/master/Composite/Exemplo).
+
 Exemplo retirado da atividade feita no curso: Java Designt Patterns: Structural, de Linkeding Learning. 
 
 Algoritmo feito para pagar as despesas de funcionários de um time de vendedores. 
