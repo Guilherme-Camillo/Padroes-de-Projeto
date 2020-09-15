@@ -1,5 +1,8 @@
 # Composite
+
 ### Padrão Composite
+
+É considerado um padrão Estrutural.   
 
   Esse padrão nos permite ter uma estrutura de árvore hierarquica com objetos semelhantes sendo tratados de maneira igual, onde precisamos de funcionalidades genéricas por toda sua estruta e ainda cada nó podendo performar uma tarefa diferente. Utiliza fortemente as definições de polimorfismo.
 
