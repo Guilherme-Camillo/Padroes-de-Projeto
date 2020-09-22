@@ -15,7 +15,19 @@ Como é definida a classe do Singletom:
 
 ### Aplicações
 
-Existem vários motivos para querer que apenas uma única instancia de uma classe deva existir. Cache, thread pools e registros são exemplos de objetos que devem ter apenas uma única instância.  
+Existem vários motivos para querer que apenas uma única instancia de uma classe deva existir. Logs, variavéis de configuração e recursos de hardware compartilhados são exemplos de objetos que devem ter apenas uma única instância.  
+
+- Logs:
+
+Logs normalmente são utilizados por quase todas as classes de um sistema, e não retornam nenhuma informação que afeta o comportamento da aplicação. Este é um caso no qual o singleton pode ser bem empregado.  
+
+- Variáveis de configuração:
+
+Variáveis de configuração podem ser carregadas ao iniciar o sistema, e normalmente não são alteradas diretamente pela aplicação. Utilizar uma classe singleton para armazenar essas informações pode funcionar como um cache em memória para que não seja necessário “buscar” essa informação toda vez que uma delas for requisitada.  
+
+- Acessar recursos de hardware compartilhado:
+
+Uma aplicação multi-thread que necessite acessar recursos de um hardware onde o mesmo não foi feito para trabalhar dessa forma pode se beneficiar desse padrão. Isso porque todas as classes que necessitarem acessar algum recurso do hardware deverão utilizar a mesma instância da classe singleton. Esta será responsável por controlar todas as operações de comunicação entre a aplicação e o hardware.  
 
 ### Estrutura
 ![Estrutura](https://refactoring.guru/images/patterns/diagrams/singleton/structure-pt-br.png)
