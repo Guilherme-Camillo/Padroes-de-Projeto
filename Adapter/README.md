@@ -23,5 +23,15 @@ Muito utilizado para compatibilizar o novo sistema com Frameworks ou APIs extern
 - Adapter -> É quem adapta a interface do Adeptee ao Target usado pela aplicação. É responsável pela comunicação entre o Client e o Adaptee.
 
 ### Exemplo
-[Link para o código]()
+[Link para o código](https://github.com/Guilherme-Camillo/Padroes-de-Projeto/tree/master/Adapter/Exemplo)
+
+O exemplo utilziado neste código é de um tocador MP3, que para tocar arquivos .MP4, precisa de um adaptador.  
+
+Temos as interfaces `MediaPlayer.java`, que implementa arquivos MP3 e `MediaPackage.java` que implementa arquivos MP4.
+
+Queremos utilizar MP4 como instancias de `MediaPlayer.java`, para isso precisamos de um adaptador que é o `FormatAdapter.java`
+
+Dessa forma podemos executar o código do nosso arquivo `Main.java`, fazendo um arquivo .MP4 invocar o método `play` da interface `MédiaPlayer`, utilizando o adaptador.
+
+
 
