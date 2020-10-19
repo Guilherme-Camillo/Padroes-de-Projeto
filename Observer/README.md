@@ -30,7 +30,7 @@ Da mesma forma, na programação baseada em UI Java, todos os eventos de teclado
 
 
 ### Exemplo
-[Link para o código](www)
+[Link para o código](https://github.com/Guilherme-Camillo/Padroes-de-Projeto/tree/master/Observer/Exemplo)
 
 .
 
