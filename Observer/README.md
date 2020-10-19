@@ -32,5 +32,22 @@ Da mesma forma, na programação baseada em UI Java, todos os eventos de teclado
 ### Exemplo
 [Link para o código](https://github.com/Guilherme-Camillo/Padroes-de-Projeto/tree/master/Observer/Exemplo)
 
-.
+Vamos supor que uma rede de lojas deseja notificar seus clientes sobre uma venda em andamento.
 
+O sistema enviaria uma mensagem curta para todos os clientes assinados sempre que uma venda fosse ativada.
+
+Nesse caso, nossa Store é a classe que será observada, e nossos consumidores estão observando ela. Assim definimos as interfaces Subject e Observer.
+
+A interface Subject é bem simples. Nos da os métodos para add ou remove subscribers/observe e os notificas sobre mudanças.
+
+A interface Observer é mais simples ainda, a única coisa que precisa é saber quando teve um update do seu subject. Seu comportamente é diferente entre as classes.  
+
+Nosso Subject será a Loja (Store). A loja contém uma lista de Observers (clientes) e implementa os métodos para adição e remoção de clientes da lista. 
+
+O método `notifySubscribers()` faz um loop pela lista de clientes e os envia um update.  
+
+Podemos ter quantos Observers quisermos. Cada consumidor reage de forma difrente a uma promoção.  
+
+Assim fazemos a implementação de dois tipos de clientes: ShopaholicCustomer e PassiveCustomer  
+
+No main definimos algumas promoçãoes em nossa loja, sendo observadas pelos nossos clientes, para ver o Observer em ação. 
