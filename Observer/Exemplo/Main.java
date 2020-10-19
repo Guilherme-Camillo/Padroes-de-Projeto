@@ -5,25 +5,25 @@ public class Main {
 
     
         // Initialization
-    Subject fashionChainStores = new Store();
+    Subject loja = new Store();
     Observer customer1 = new PassiveCustomer();
     Observer customer2 = new ShopaholicCustomer();
     Observer customer3 = new ShopaholicCustomer();
 
     // Adding two customers to the newsletter
-    fashionChainStores.addSubscriber(customer1);
-    fashionChainStores.addSubscriber(customer2);
+    loja.addSubscriber(customer1);
+    loja.addSubscriber(customer2);
 
     // Notifying customers (observers)
-    fashionChainStores.notifySubscribers();
+    loja.notifySubscribers();
 
     // A customer has decided not to continue following the newsletter
-    fashionChainStores.removeSubscriber(customer1);
+    loja.removeSubscriber(customer1);
 
     // customer2 told customer3 that a sale is going on
-    fashionChainStores.addSubscriber(customer3);
+    loja.addSubscriber(customer3);
 
     // Notifying the updated list of customers
-    fashionChainStores.notifySubscribers();
+    loja.notifySubscribers();
   }
 }
