@@ -32,5 +32,12 @@ método que define seu estado atual com o estado de um determinado objeto Mement
 - Caretaker: classe auxiliar responsável por armazenar e restaurar o estado do Originador por meio do objeto Memento. Um objeto Caretaker mantém os Mementos, mas nunca modifica os Mementos.  
 
 ### Exemplo
-[Link para o código](https://github.com/Guilherme-Camillo/Padroes-de-Projeto/tree/master/Observer/Exemplo)
+[Link para o código](https://github.com/Guilherme-Camillo/Padroes-de-Projeto/tree/master/Memento/Exemplo)
+
+Nesse example, estamos criando o memento para um objeto Article, que possui alguns atributos básicos, id, title e content.  
+
+A classe `ArticleMemento` é utilizada como memento para os objetos Article.  
+
+A classe `Main` está fazendo o papel de Caretaker, que cria e recupera o estado do objeto memento.  Nela podemos utilizar o comando   `ArticleMemento memento = article.createMemento();` para criar um memento imutável. E depois utilizar  `article.restore(memento);` para restaurar o arquivo nesse momento que ele foi salvo.  
+
 
