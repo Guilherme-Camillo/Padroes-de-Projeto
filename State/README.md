@@ -2,7 +2,7 @@
 
 ### Padrão State
 
-É um padrão Comportamental, permite um ojbeto alterar seu comportamento quando o seu estado interno é modificado.
+É um padrão Comportamental, permite um objeto alterar seu comportamento quando o seu estado interno é modificado.
 
 ### Objetivo
 
