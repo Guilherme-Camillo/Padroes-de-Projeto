@@ -1,6 +1,6 @@
 # Strategy
 
-### Padrão Memento
+### Padrão Strategy
 
 É um padrão Comportamental, também é chamado de Policy. Sua função é delegar responsabilidade, para assim aumentar a coesão e aprimorar a comunicação entre objetos. Permite também que o algoritmo varie independentemente dos clientes que o utilizam.
 
