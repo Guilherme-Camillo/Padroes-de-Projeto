@@ -30,14 +30,22 @@ Fornecer descontos e condições especiais de compra a certo cliente dependendo 
 
 ### Elementos do Padrão
 
-- Context: Define e mantém a referênce para uma classe Strategy específica.
+- Context: Define e mantém a referência para uma classe Strategy específica.
 
 - Strategy: Interface ou classe abstrata comum a todos os algortimos suportados. 
 
 - ConcreteStrategy: Um ou mais algoritmos fornecidos para a aplicação.   
 
 ### Exemplo
-[Link para o código]()
+[Link para o código](https://github.com/Guilherme-Camillo/Padroes-de-Projeto/tree/master/Strategy/Exemplo)
+
+Primeiro criamos a interface `Srategy` com a operação `doOperation` e atribuimos 2 ints para ela.
+
+Depois definimos 3 classes que serão nossas operaçãos e implementam nossa interface, fizemos a soma, subtração e multiplicação.
+
+Agora criamos a classe `Context` com uma referência para a nossa classe Strategy, que com o comando `executeStrategy` nos permite retornar `strategy.doOperation`. 
+
+Na calsse main usamos a classe `Context` para mudar o comportamente conforme a `Strategy` muda.
 
 
 
