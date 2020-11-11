@@ -45,7 +45,7 @@ Depois definimos 3 classes que serão nossas operaçãos e implementam nossa int
 
 Agora criamos a classe `Context` com uma referência para a nossa classe Strategy, que com o comando `executeStrategy` nos permite retornar `strategy.doOperation`. 
 
-Na calsse main usamos a classe `Context` para mudar o comportamente conforme a `Strategy` muda. E assim executamos 3 operações com o contexto diferente obtendo 3 resultados diferentes (soma, subtração e multiplicação).
+Na classe main usamos a classe `Context` para mudar o comportamente conforme a `Strategy` muda. E assim executamos 3 operações com o contexto diferente obtendo 3 resultados diferentes (soma, subtração e multiplicação).
 
 
 
