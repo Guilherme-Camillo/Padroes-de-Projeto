@@ -33,7 +33,15 @@ Em grandes projetos, você deve alterar o comportamento do objeto dependendo de 
 - ConcreteState: Um ou mais estados concretos que implementam a interface estado. Fornecem suas próprias implementações para os métodos específicos de estados. 
 
 ### Exemplo
-[Link para o código]()
+[Link para o código](https://github.com/Guilherme-Camillo/Padroes-de-Projeto/tree/master/State/Exemplo)
+
+Vamos criar uma interface State, definindo um comando doAction, e criamos duas classes que vão implementar essa interface 'StartState.java' e 'StopState.java' e o comando doAction conforme sua função.
+
+Depois fazemos nossa classe Context que é a classe que carrega o State (estado).
+
+Assim na classe main usamos o Context ver as mudanças no comportamento quando o State muda.
+
+
 
 
 
