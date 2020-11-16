@@ -7,7 +7,7 @@
 ### Aplicações
 
 ### Estrutura
-![Estrutura]()
+![Estrutura](https://refactoring.guru/images/patterns/diagrams/abstract-factory/structure.png)
 
 ### Elementos do Padrão
 
