@@ -2,6 +2,8 @@
 
 ### Padrão Factory Method
 
+É definido como um Padrão Criacional
+
 ### Objetivo
 
 ### Aplicações
