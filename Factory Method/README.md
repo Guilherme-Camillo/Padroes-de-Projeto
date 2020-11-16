@@ -7,7 +7,7 @@
 ### Aplicações
 
 ### Estrutura
-![Estrutura]()
+![Estrutura](https://arquivo.devmedia.com.br/artigos/Higor_Medeiros/padraofactory/image001.jpg)
 
 ### Elementos do Padrão
 
