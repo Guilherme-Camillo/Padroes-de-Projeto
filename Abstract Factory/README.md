@@ -2,6 +2,8 @@
 
 ### Padrão Abstract Factory
 
+É definido como um Padrão Criacional
+
 ### Objetivo
 
 ### Aplicações
